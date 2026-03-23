@@ -8,17 +8,29 @@ Designed for **CPU-only systems** and fully **local usage** — no internet requ
 
 
 Image Generation/
+
 ├── generator.py # Core image generation logic
+
 ├── gui.py # Tkinter-based GUI
+
 ├── setup_models.py # Downloads required models
+
 ├── models/ # Local storage for models
+
 │ ├── v1-5-pruned-emaonly.safetensors
+
 │ └── lcm-lora-sdv1-5/
+
 │ ├── pytorch_lora_weights.safetensors
+
 │ ├── adapter_config.json
+
 │ └── other files
+
 ├── output.png # Generated images (example)
+
 ├── README.md
+
 ├── .gitignore
 
 
